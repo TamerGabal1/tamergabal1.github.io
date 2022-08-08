@@ -9,11 +9,16 @@ let skillsDiv = document.querySelector('.skills');
 let skillNames = document.querySelector(".skillNames");
 let projectsDiv = document.querySelector('.projects');
 
+let blankText = document.querySelectorAll('.blank');
+
 let turnLight = function(){
     switchPicture.src = "images/night.png";
     document.body.style.backgroundColor = "#F4F4F9";
     document.body.style.color = "black";
     aboutMe.style.backgroundColor = "antiquewhite";
+    blankText.forEach(function(e){
+        e.style.color = "antiquewhite";
+    })
     skillsDiv.style.backgroundColor = "darkseagreen";
     skillNames.style.backgroundColor = "darkseagreen";
     projectsDiv.style.backgroundColor = "#9DC0BC";
@@ -24,6 +29,9 @@ let turnDark = function(){
     document.body.style.backgroundColor = "black";
     document.body.style.color = "white";
     aboutMe.style.backgroundColor = "darkcyan";
+    blankText.forEach(function(e){
+        e.style.color = "darkcyan";
+    })
     skillsDiv.style.backgroundColor = "#7C7287";
     skillNames.style.backgroundColor = "#7C7287";
     projectsDiv.style.backgroundColor = "#2B2D42";
