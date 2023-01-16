@@ -1,103 +1,79 @@
 /* *{
-    border: 4px solid red;
+    border: 1px solid red;
 } */
 
 body{
-    background-color: #F4F4F9;
-    font-family: 'Open Sans', sans-serif;
-    margin: 0px;
+    background-color: aliceblue;
+    color: #5A298B;
 }
-
-#big_div{
-    background-color: #0072BB;
-    /* padding: 20px; */
+nav{
+    font-size: 50px;
     display: flex;
-    justify-content: space-around;
-    font-size: 200%;
+    justify-content: space-evenly;
+}
+a{
+    color: #be95c4;
 }
 
-.items{
-    color:white;
-    font-style: italic;
-}
-
-h1{
-    /* background-color: #B8DBD9; */
+#intro{
+    color: #5A298B;
     display: flex;
-    justify-content: center;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 400%;
-}
-.about_me{
-    display: flex;
-    font-size: 200%;
-    background-color: antiquewhite;
-    border-radius: 5%;
-}
-
-img{
-    width: 100px;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Oswald', sans-serif;
+    
 }
 
 #headshot{
-    width: 400px;
-    margin-right: 100px;
-    border: 3px solid black;
-    border-radius: 5%;
+    border-radius: 7%;
 }
 
-.paragraphs{
-    list-style-type: none;
+#hi{
+    font-size: 20px;
+    margin-top: 80px;
+    margin-bottom: 0px;
+}
+#name{
+    font-size: 80px;
+    margin-top: 0px;
+}
+#description{
+    font-size: 30px;
 }
 
-.blank{
-    list-style-type: none;
-    color: antiquewhite;
+#header{
+    display: grid;
+    grid-template-columns: 1fr 500px;
+    margin-left: 20px;
 }
 
-h2{
+#headshot{
+    margin-top: 20px;
+    margin-left: 25px;
+}
+
+#current{
+    display: flex;
+    flex-direction: row;
+    font-size: 25px;
+}
+#current i{
+    font-size: 60px;
+    margin: 10px;
+}
+#skills{
+    margin-top: 15px;
     display: flex;
     justify-content: center;
-    font-size: 300%;
-}
-
-.projects{
-    display: flex;
-    justify-content: center;
-    font-size: 150%;
-    background-color: #9DC0BC;
-}
-
-.contact_info{
-    display: flex;
-    justify-content: center;
-    font-size: 150%;
-}
-
-button{
-    background-color: transparent;
-    border: 0px;
-}
-
-.skills{
-    display: flex;
-    justify-content: space-around;
     align-items: center;
-    padding-top: 50px;
-    background-color:darkseagreen;
+    flex-direction: column;
 }
-
-.skills > img{
-    width: 200px;
-}
-
-.skillNames{
+#future{
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-    font-size: 300%;
-    font-style: italic;
-    font-weight: bold;
-    padding: 50px;
-    background-color:darkseagreen;
+    flex-direction: row;
+    font-size: 25px;
+}
+#future i{
+    font-size: 60px;
+    margin: 10px;
 }
