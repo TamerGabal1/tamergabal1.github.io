@@ -54,7 +54,8 @@ a{
 
 #current{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    text-align: center;
     font-size: 25px;
 }
 #current i{
@@ -62,7 +63,7 @@ a{
     margin: 10px;
 }
 #skills{
-    margin-top: 15px;
+    margin-top: 60px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -70,10 +71,81 @@ a{
 }
 #future{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    text-align: center;
     font-size: 25px;
 }
 #future i{
     font-size: 60px;
     margin: 10px;
+}
+
+#aboutLink{
+    text-align: center;
+    font-size: 30px;
+    background-color: #E5D9F2;
+    padding: 25px;
+    border-radius: 6.5%;
+}
+
+#projectLink{
+    text-align: center;
+    font-size: 30px;
+    background-color: #E5D9F2;
+    padding: 25px;
+    border-radius: 6.5%;
+}
+
+#links{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+}
+
+#aboutLink > i{
+    font-size: 80px;
+}
+
+#projectLink > i{
+    font-size: 80px;
+}
+
+#aboutLink > h2{
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+
+#links > a{
+    color: #7371FC;
+    text-decoration: none;
+}
+
+#projectLink > h2{
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+
+#mainAbout{
+    display: grid;
+    font-family: 'Oswald', sans-serif;
+    grid-template-columns: 350px 1fr 350px;
+    margin-top: 30px;
+}
+
+#content{
+    display: flex;
+    /* align-self: center; */
+    align-items: center;
+    flex-direction: column;
+    background-color: #E5D9F2;
+    padding-top: 20px;
+    border-radius: 15%;
+    font-size: 20px;
+    padding: 10px;
+}
+
+#content > img{
+    border-radius: 20%;
 }
