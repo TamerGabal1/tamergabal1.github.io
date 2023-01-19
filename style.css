@@ -11,8 +11,12 @@ nav{
     display: flex;
     justify-content: space-evenly;
 }
-a{
+nav a{
     color: #be95c4;
+}
+
+nav a:hover{
+    color: #5A298B;
 }
 
 #intro{
@@ -127,6 +131,14 @@ a{
     margin-bottom: 0px;
 }
 
+#aboutLink:hover{
+    background-color: #CDC1FF;
+}
+
+#projectLink:hover{
+    background-color: #CDC1FF;
+}
+
 #mainAbout{
     display: grid;
     font-family: 'Oswald', sans-serif;
@@ -148,4 +160,26 @@ a{
 
 #content > img{
     border-radius: 20%;
+}
+
+footer{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+}
+
+footer > a{
+    color: #7371FC;
+    text-decoration: none;
+}
+
+#projects{
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+}
+
+.project{
+    display: flex;
+    flex-direction: row;
 }
