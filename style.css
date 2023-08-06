@@ -3,8 +3,8 @@
 } */
 
 body{
-    background-color: aliceblue;
-    color: #5A298B;
+    background-color: #231942;
+    color: #e0b1cb;
 }
 nav{
     font-size: 50px;
@@ -20,7 +20,7 @@ nav a:hover{
 }
 
 #intro{
-    color: #5A298B;
+    color: #e0b1cb;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -87,7 +87,7 @@ nav a:hover{
 #aboutLink{
     text-align: center;
     font-size: 30px;
-    background-color: #E5D9F2;
+    background-color: #e0b1cb;
     padding: 25px;
     border-radius: 6.5%;
 }
@@ -95,8 +95,10 @@ nav a:hover{
 #projectLink{
     text-align: center;
     font-size: 30px;
-    background-color: #E5D9F2;
+    background-color: #e0b1cb;
     padding: 25px;
+    padding-left:50px;
+    padding-right:50px;
     border-radius: 6.5%;
 }
 
@@ -132,11 +134,11 @@ nav a:hover{
 }
 
 #aboutLink:hover{
-    background-color: #CDC1FF;
+    background-color: #be95c4;
 }
 
 #projectLink:hover{
-    background-color: #CDC1FF;
+    background-color: #be95c4;
 }
 
 #mainAbout{
@@ -151,7 +153,7 @@ nav a:hover{
     /* align-self: center; */
     align-items: center;
     flex-direction: column;
-    background-color: #E5D9F2;
+    background-color: #5e548e;
     padding-top: 20px;
     border-radius: 15%;
     font-size: 20px;
